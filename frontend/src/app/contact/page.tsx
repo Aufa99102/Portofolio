@@ -31,7 +31,7 @@ export default function ContactPage() {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="Aufa Safaraz Prianda"
+                  placeholder="Masukkan Nama Lengkap Anda"
                   className="w-full px-4 py-3 rounded-xl bg-gray-800/50 border border-gray-700/50 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500/50 transition-all duration-300"
                 />
               </div>
@@ -47,7 +47,7 @@ export default function ContactPage() {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="aufa.safaraz08@gmail.com"
+                  placeholder="Masukkan Email Anda"
                   className="w-full px-4 py-3 rounded-xl bg-gray-800/50 border border-gray-700/50 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500/50 transition-all duration-300"
                 />
               </div>
@@ -151,11 +151,21 @@ export default function ContactPage() {
                 {["GitHub", "LinkedIn", "Instagram"].map((social) => (
                 <a
                     key={social}
-                    href="#"
+                    href={
+                          social === "GitHub"
+                        ? "https://github.com/Aufa99102"
+                        : social === "LinkedIn"
+                        ? "https://www.linkedin.com/in/aufa-safaraz-prianda-9a75a9426/"
+                        : social === "Instagram"
+                        ? "https://www.instagram.com/aufaasfrz_/"
+                        : "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="px-4 py-2 rounded-xl bg-gray-800/50 border border-gray-700/50 text-gray-400 text-sm hover:text-white hover:border-indigo-500/30 transition-all duration-300"
                 >
                     {social}
                   </a>
+
                 ))}
               </div>
             </div>
