@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MyPortfolio — Portofolio Dinamis",
+  title: "MyPortofolio — Portofolio Dinamis",
   description:
     "Website portofolio dinamis siswa XII RPL 1. Dibangun dengan Next.js, Express.js, dan MySQL.",
 };

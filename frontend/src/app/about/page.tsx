@@ -20,7 +20,9 @@ export default function AboutPage() {
           {/* Ini photo dan info */}
           <div className="flex flex-col items-center lg:items-start gap-6">
             <div className="w-48 h-48 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-violet-500/20 border border-gray-800/50 flex items-center justify-center">
-              <span className="text-6xl">👤</span>
+              <span className="text-6xl">
+                <img src="/profil.png" alt="Profile" className="w-full h-full object-cover rounded-2xl" />
+              </span>
             </div>
 
             <div className="w-full space-y-3">
@@ -47,7 +49,7 @@ export default function AboutPage() {
           <div className="space-y-6">
             <div>
               <h2 className="text-2xl font-bold text-white mb-3">
-                Siapa Aufa Safaraz Prianda?
+                Siapa saya?
               </h2>
               <p className="text-gray-400 leading-relaxed">
                 Saya adalah siswa kelas XII jurusan Rekayasa Perangkat Lunak

@@ -3,7 +3,7 @@ import Link from "next/link";
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "/portfolio", label: "Portfolio" },
+  { href: "/portofolio", label: "Portofolio" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -21,7 +21,7 @@ export default function Footer() {
           {/* Ini untuk brandnya */}
           <div>
             <h3 className="text-xl font-bold bg-gradient-to-r from-indigo-400 to-violet-400 bg-clip-text text-transparent mb-3">
-              MyPortfolio
+              MyPortofolio
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Siswa XII RPL 1 yang passionate di bidang web development.
@@ -70,7 +70,7 @@ export default function Footer() {
         {/* Tombol Bar */}
         <div className="mt-10 pt-6 border-t border-gray-800/50 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} MyPortfolio. All rights reserved.
+            © {new Date().getFullYear()} MyPortofolio. All rights reserved.
           </p>
           <p className="text-gray-600 text-xs">Built with Next.js & Tailwind CSS</p>
         </div>

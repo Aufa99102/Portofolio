@@ -7,7 +7,7 @@ import { useState } from "react";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "/portfolio", label: "Portfolio" },
+  { href: "/portofolio", label: "Portofolio" },
   { href: "/skills", label: "Skills" },
   { href: "/certificates", label: "Certificates" },
   { href: "/testimonials", label: "Testimonials" },
@@ -27,7 +27,7 @@ export default function Navbar() {
             href="/"
             className="text-xl font-bold bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 bg-clip-text text-transparent hover:from-indigo-300 hover:to-violet-300 transition-all duration-300"
           >
-            MyPortfolio
+            MyPortofolio
           </Link>
 
           {/* Navigasi untuk Desktop */}
