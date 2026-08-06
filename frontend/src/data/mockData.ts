@@ -183,7 +183,7 @@ const testimonials: Testimonial[] = [
     avatar: "👨‍🏫",
     stars: 5,
     quote:
-      "Egil menunjukkan performa luar biasa dalam setiap tugas dan proyek sekolah. Dia selalu menjadi leader dalam team project karena inisiatif dan tanggung jawabnya yang tinggi.",
+      "Aufa Safaraz menunjukkan performa luar biasa dalam setiap tugas dan proyek sekolah. Dia selalu menjadi leader dalam team project karena inisiatif dan tanggung jawabnya yang tinggi.",
   },
   {
     id: 2,
@@ -193,7 +193,7 @@ const testimonials: Testimonial[] = [
     avatar: "🧑‍💻",
     stars: 5,
     quote:
-      "Belajar kelompok bareng Egil selalu asik. Dia pintar menjelaskan konsep pemrograman yang susah dengan bahasa yang gampang dimengerti oleh teman-teman.",
+      "Belajar kelompok bareng Aufa Safaraz selalu asik. Dia pintar menjelaskan konsep pemrograman yang susah dengan bahasa yang gampang dimengerti oleh teman-teman.",
   },
   {
     id: 3,
@@ -203,7 +203,7 @@ const testimonials: Testimonial[] = [
     avatar: "👩‍🏫",
     stars: 5,
     quote:
-      "Pemahaman Egil terhadap framework Next.js dan Tailwind CSS v4 di usianya sekarang sangat mengagumkan. Proyek-proyeknya dikerjakan dengan detail dan rapi.",
+      "Pemahaman Aufa Safaraz terhadap framework Next.js dan Tailwind CSS v4 di usianya sekarang sangat mengagumkan. Proyek-proyeknya dikerjakan dengan detail dan rapi.",
   },
 ];
 
