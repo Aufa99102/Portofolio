@@ -104,11 +104,11 @@ const skillGroups: SkillGroup[] = [
     title: "Frontend Development",
     icon: "💻",
     skills: [
-      { name: "HTML5 / CSS3", level: "Advanced", percentage: 90 },
-      { name: "JavaScript (ES6+)", level: "Advanced", percentage: 85 },
-      { name: "React.js", level: "Intermediate", percentage: 75 },
+      { name: "HTML5 / CSS3", level: "Intermediate", percentage: 55 },
+      { name: "JavaScript (ES6+)", level: "Intermediate", percentage: 55 },
+      { name: "React.js", level: "Intermediate", percentage: 55 },
       { name: "Next.js (App Router)", level: "Intermediate", percentage: 70 },
-      { name: "Tailwind CSS", level: "Advanced", percentage: 90 },
+      { name: "Tailwind CSS", level: "Intermediate", percentage: 60 },
     ],
   },
   {
@@ -117,18 +117,18 @@ const skillGroups: SkillGroup[] = [
     skills: [
       { name: "Node.js", level: "Intermediate", percentage: 70 },
       { name: "Express.js", level: "Intermediate", percentage: 75 },
-      { name: "MySQL", level: "Intermediate", percentage: 80 },
-      { name: "RESTful API Development", level: "Intermediate", percentage: 80 },
+      { name: "MySQL", level: "Intermediate", percentage: 75 },
+      { name: "RESTful API Development", level: "Intermediate", percentage: 65 },
     ],
   },
   {
     title: "Tools & Platform",
     icon: "🛠️",
     skills: [
-      { name: "Git & GitHub", level: "Advanced", percentage: 85 },
+      { name: "Git & GitHub", level: "Intermediate", percentage: 75 },
       { name: "Figma (UI/UX)", level: "Intermediate", percentage: 70 },
       { name: "Postman", level: "Advanced", percentage: 80 },
-      { name: "VS Code", level: "Advanced", percentage: 95 },
+      { name: "VS Code", level: "Intermediate", percentage: 70 },
     ],
   },
 ];
@@ -177,9 +177,9 @@ const certificates: Certificate[] = [
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Drs. Eko Prasetyo",
-    role: "Kepala Jurusan RPL",
-    company: "SMK Negeri 1",
+    name: "Mr. Saad",
+    role: "Kepala Sekolah SMK TELKOM MAKASSAR",
+    company: "SMK Telkom Makassar",
     avatar: "👨‍🏫",
     stars: 5,
     quote:
@@ -187,23 +187,43 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Rian Ardiansyah",
-    role: "Teman Sekolah / Ketua Kelas",
-    company: "XII RPL 1",
+    name: "Mr. Farid",
+    role: "Kaprodi Jurusan RPL",
+    company: "SMK Telkom Makassar",
     avatar: "🧑‍💻",
     stars: 5,
     quote:
-      "Belajar kelompok bareng Aufa Safaraz selalu asik. Dia pintar menjelaskan konsep pemrograman yang susah dengan bahasa yang gampang dimengerti oleh teman-teman.",
+      "Aufa Safaraz seorang siswa yang bertanggung jawab dengan tugasnya dan pantang menyerah.",
   },
   {
     id: 3,
-    name: "Siti Rahmawati",
-    role: "Guru Produktif Web & Mobile",
-    company: "SMK Negeri 1",
+    name: "Mr. Okta",
+    role: "Guru Produktif Frontend",
+    company: "SMK Telkom Makassar",
     avatar: "👩‍🏫",
     stars: 5,
     quote:
-      "Pemahaman Aufa Safaraz terhadap framework Next.js dan Tailwind CSS v4 di usianya sekarang sangat mengagumkan. Proyek-proyeknya dikerjakan dengan detail dan rapi.",
+      "Memiliki kepercayaan diri, tegas, dan bertanggung jawab, itulah yang saya kenal dari Aufa Safaraz.",
+  },
+  {
+    id: 4,
+    name: "Mr. Alif Anhar",
+    role: "Guru Produktif Backend",
+    company: "SMK Telkom Makassar",
+    avatar: "👩‍🏫",
+    stars: 5,
+    quote:
+      "Aufa Safaraz murid dari SMK Telkom yang bertanggung jawab terhadap setiap tugasnya dan memiliki karakter yang baik.",
+  },
+    {
+    id: 5,
+    name: "Muh Nabil Basyir",
+    role: "Teman Sebangku",
+    company: "XII RPL 1",
+    avatar: "🧑‍🎓",
+    stars: 5,
+    quote:
+      "Aufa Safaraz adalah teman sebangku yang baik dan senang membantu ketika saya memiliki kesusahan.",
   },
 ];
 

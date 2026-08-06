@@ -29,8 +29,8 @@ export default function Home() {
           {/* Ini taglinenya */}
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
             Siswa XII RPL 1 yang passionate dalam {""}
-            <span className="text-indigo-300">Web Development</span>. Membangun
-            pengalaman melalui project nyata dan terus belajar teknologi terbaru.
+            <span className="text-indigo-300">Bermain Basket</span>. Bukan hanya itu
+            skill dalam bidang <span className="text-indigo-300">pembuatan web</span> pun bisa di adu
           </p>
 
           {/* Ini tombol CTA nya */}

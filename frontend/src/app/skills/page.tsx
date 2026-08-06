@@ -33,7 +33,7 @@ export default function SkillsPage() {
             </span>
           </h1>
           <p className="text-gray-400 max-w-xl mx-auto">
-            Kombinasi keahlian teknis dan kakas bantu yang saya gunakan untuk mewujudkan konsep menjadi website yang fungsional.
+            Kombinasi keahlian Frontend dan Backend yang membantu saya dalam mengembangkan sebuah fondasi Web maupun Aplikasi
           </p>
         </div>
 
