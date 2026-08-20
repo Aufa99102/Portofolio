@@ -142,7 +142,7 @@ const certificates: Certificate[] = [
     date: "July 2026",
     credentialId: "Asean foundation",
     verificationUrl: "https://www.aiclassasean.org/certificate/eyJpdiI6IlVEUVpwVDEyeFY3Z0ZpZU5NMG1DS3c9PSIsInZhbHVlIjoiWXpuNlJOOTFCdHA4d0VsWnR3MENvZz09IiwibWFjIjoiZWJjMTcwN2FmMTRiNGJiZTUyNmI3YTM1YTUzYTNjNjkxNmVkYTgyNGZjNjA4ODJjODkyZDkyZjRkNjc0MDc0MCIsInRhZyI6IiJ9?v=1",
-    image: "/certif.png",
+    image: "/Sertifikat-AI_Asean.png",
   },
   {
     id: 2,
@@ -151,7 +151,7 @@ const certificates: Certificate[] = [
     date: "Juni 2026",
     credentialId: "Cisco",
     verificationUrl: "https://www.credly.com/badges/746c1b87-aef7-4d16-9c16-d5f243c063c9",
-    image: "/sertif.png",
+    image: "/JavaScript_Essentials_2-Badge.png",
   },
   {
     id: 3,
@@ -160,7 +160,7 @@ const certificates: Certificate[] = [
     date: "Juni 2026",
     credentialId: "Cisco",
     verificationUrl: "https://www.netacad.com/certificates/?issuanceId=77b0a184-2415-45e3-8d65-b5f2bc988193",
-    image: "/sertif.png",
+    image: "/JavaScript_Essentials_2_certificate.png",
   },
   {
     id: 4,
@@ -169,7 +169,16 @@ const certificates: Certificate[] = [
     date: "1 Januari 2026",
     credentialId: "dicoding",
     verificationUrl: "https://www.dicoding.com/certificates/4EXG3R2WQZRL",
-    image: "/sertif.png",
+    image: "/Sertifikat_dicoding_IntorductionToFinancialLiteracy.png",
+  },
+  {
+    id: 5,
+    title: "Dasar Pemrograman Web",
+    issuer: "dicoding",
+    date: "6 Agustus 2026",
+    credentialId: "dicoding",
+    verificationUrl: "https://www.dicoding.com/dicodingassets/coursecertificate/70f165b76d7816285c607c416f31bc229e2d7a85/view",
+    image: "/Sertifikat_dicoding_BelajarDasarPemrogramanWeb-Aufa-Safaraz-Prianda.png",
   }
 ];
 

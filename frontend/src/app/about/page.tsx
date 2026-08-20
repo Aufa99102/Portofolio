@@ -53,10 +53,8 @@ export default function AboutPage() {
               </h2>
               <p className="text-gray-400 leading-relaxed">
                 Saya adalah siswa kelas XII jurusan Rekayasa Perangkat Lunak
-                (RPL) yang memiliki passion besar di bidang web development.
-                Saya senang membangun website dan aplikasi web yang tidak
-                hanya fungsional, tetapi juga memiliki tampilan yang menarik
-                dan pengalaman pengguna yang baik.
+                (RPL) yang memiliki ketertarikan pada pembuatan web. Saya juga senang untuk 
+                mempelajari hal-hal baru.
               </p>
             </div>
 
@@ -67,9 +65,8 @@ export default function AboutPage() {
               <p className="text-gray-400 leading-relaxed">
                 Perjalanan saya di dunia programming dimulai sejak kelas X
                 ketika pertama kali belajar HTML dan CSS. Sejak saat itu,
-                saya terus mengeksplorasi berbagai teknologi mulai dari
-                JavaScript, React, Next.js hingga backend dengan Express.js
-                dan database MySQL.
+                saya terus mempelajari bahasa pemrograman baru seperti
+                React, Next.js, Laravel, Express.js.
               </p>
             </div>
 

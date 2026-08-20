@@ -52,9 +52,13 @@ export default function CertificatePage() {
                 className="group p-6 rounded-2xl bg-gray-900/50 border border-gray-800/50 hover:border-indigo-500/30 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center mb-6 group-hover:bg-indigo-500/20 transition-colors duration-300">
-                    <span className="text-2xl">📜</span>
-                  </div>
+                    <div className="w-full rounded-xl overflow-hidden bg-gray-800/50 mb-6">
+                      <img
+                        src={cert.image}
+                        alt={cert.title}
+                        className="w-full h-auto block"
+                      />
+                    </div>
 
                   <h3 className="text-lg font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors duration-300 leading-snug">
                     {cert.title}
