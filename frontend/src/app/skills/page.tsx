@@ -1,17 +1,18 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { getSkills, SkillGroup } from "@/data/mockData";
+import { fetchSkills } from "@/data/api";
+import { SkillGroup } from "@/data/mockData";
 
 export default function SkillsPage() {
   const [skillGroupsList, setSkillGroupsList] = useState<SkillGroup[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchSkills() {
+    async function loadSkills() {
       try {
         setLoading(true);
-        const data = await getSkills();
+        const data = await fetchSkills();
         setSkillGroupsList(data);
       } catch (error) {
         console.error("Failed to fetch skills:", error);
@@ -19,7 +20,7 @@ export default function SkillsPage() {
         setLoading(false);
       }
     }
-    fetchSkills();
+    loadSkills();
   }, []);
 
   return (
@@ -33,7 +34,8 @@ export default function SkillsPage() {
             </span>
           </h1>
           <p className="text-gray-400 max-w-xl mx-auto">
-            Kombinasi keahlian Frontend dan Backend yang membantu saya dalam mengembangkan sebuah fondasi Web maupun Aplikasi
+            Kombinasi keahlian teknis dan kakas bantu yang saya gunakan untuk
+            mewujudkan konsep menjadi website yang fungsional.
           </p>
         </div>
 
@@ -69,9 +71,7 @@ export default function SkillsPage() {
                 >
                   <div className="flex items-center gap-3 mb-8 pb-4 border-b border-gray-800/50">
                     <span className="text-3xl">{group.icon}</span>
-                    <h2 className="text-xl font-bold text-white">
-                      {group.title}
-                    </h2>
+                    <h2 className="text-xl font-bold text-white">{group.title}</h2>
                   </div>
 
                   <div className="space-y-6">

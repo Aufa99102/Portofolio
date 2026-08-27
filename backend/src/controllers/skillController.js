@@ -11,7 +11,8 @@ const getSkills = (req,res) => {
         }
         res.json({
             success: true,
-            message: "get data skills successed"
+            message: "get data skills successed",
+            data: results
         });
     });
 };
