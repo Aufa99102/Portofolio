@@ -23,7 +23,7 @@ export default function PortfolioPage() {
       } finally {
         setLoading(false);
       }
-    }
+    } 
     loadProjects();
   }, []);
 
