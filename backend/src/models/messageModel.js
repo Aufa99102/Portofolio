@@ -14,7 +14,23 @@ const getAllMessage = (callback) => {
     });
 };
 
+const toggleMessageRead = (id, isRead, callback) => {
+    const query = "UPDATE contacts SET is_read = ? WHERE id = ?";
+    db.query(query, [isRead ? 1 : 0, id], (err, results) => {
+        callback(err, results);
+    });
+};
+
+const deleteMessage = (id, callback) => {
+    const query = "DELETE FROM contacts WHERE id = ?";
+    db.query(query, [id], (err, results) => {
+        callback(err, results);
+    });
+};
+
 module.exports = {
     createMessage,
-    getAllMessage
-}
+    getAllMessage,
+    toggleMessageRead,
+    deleteMessage,
+};

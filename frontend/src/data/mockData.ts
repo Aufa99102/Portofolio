@@ -20,6 +20,17 @@ export interface SkillGroup {
   skills: Skill[];
 }
 
+export interface SkillFlat {
+  id: number;
+  skill_group_id?: number;
+  skillGroupId?: number;
+  name: string;
+  level: string;
+  percentage: number;
+  group_title?: string;
+  group_icon?: string;
+}
+
 export interface Certificate {
   id: number;
   title: string;

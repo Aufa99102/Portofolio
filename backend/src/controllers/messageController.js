@@ -51,7 +51,46 @@ const getMessages = (req, res) => {
     });
 };
 
+const toggleRead = (req, res) => {
+    const { id } = req.params;
+    const { is_read } = req.body;
+
+    messageModel.toggleMessageRead(id, is_read, (err, results) => {
+        if (err) {
+            return res.status(500).json({
+                success: false,
+                message: "Failed to update message status",
+                error: err.message,
+            });
+        }
+        res.json({
+            success: true,
+            message: "Message status updated successfully",
+        });
+    });
+};
+
+const deleteMessage = (req, res) => {
+    const { id } = req.params;
+
+    messageModel.deleteMessage(id, (err, results) => {
+        if (err) {
+            return res.status(500).json({
+                success: false,
+                message: "Failed to delete message",
+                error: err.message,
+            });
+        }
+        res.json({
+            success: true,
+            message: "Message deleted successfully",
+        });
+    });
+};
+
 module.exports = {
     sendMessage,
     getMessages,
+    toggleRead,
+    deleteMessage,
 };

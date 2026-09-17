@@ -79,14 +79,25 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Tombol Bar */}
-        <div className="mt-10 pt-6 border-t border-gray-800/50 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} MyPortofolio. All rights reserved.
-          </p>
-          <p className="text-gray-600 text-xs">Built with Next.js & Tailwind CSS</p>
+{/* Tombol Bar */}
+          <div className="mt-10 pt-6 border-t border-gray-800/50 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-gray-500 text-sm">
+              &copy; {new Date().getFullYear()} MyPortfolio. All rights reserved.
+            </p>
+            <div className="flex items-center gap-4">
+              <p className="text-gray-600 text-xs">
+                Built with Next.js & Tailwind CSS
+              </p>
+              <span className="text-gray-700 text-xs">•</span>
+              <Link
+                href="/admin"
+                className="text-xs text-gray-500 hover:text-indigo-400 transition-colors duration-300 flex items-center gap-1"
+              >
+                🔒 Admin Panel
+              </Link>
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
-  );
-}
+      </footer>
+    );
+  }

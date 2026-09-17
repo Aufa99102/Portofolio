@@ -64,7 +64,7 @@ export default function AdminNavbar({ onMenuToggle }: AdminNavbarProps) {
               Aufa Safaraz Prianda
             </p>
             <p className="text-[10px] text-gray-400 mt-0.5 leading-none">
-              Admin XII RPL 1
+              Siswa XII RPL 1
             </p>
           </div>
         </div>

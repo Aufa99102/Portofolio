@@ -36,7 +36,7 @@ export default function Home() {
           {/* Ini tombol CTA nya */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/portfolio"
+              href="/portofolio"
               className="px-8 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-violet-500 text-white font-semibold hover:from-indigo-400 hover:to-violet-400 transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 hover:-translate-y-0.5"
             >
               Lihat Portofolio

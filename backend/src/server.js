@@ -12,7 +12,7 @@ const messageRouter = require("./routers/messageRouter");
 const certificateRouter = require("./routers/certificateRouter");
 const skillRouter = require("./routers/skillRouter");
 const testimonialRouter = require("./routers/testimonialRouter");
-const dashboardRoute = require("./routers/dashboardRouter")
+const dashboardRouter = require("./routers/dashboardRouter")
 
 app.use(cors({
     origin: "http://localhost:3000"
@@ -25,7 +25,7 @@ app.use(messageRouter);
 app.use(certificateRouter);
 app.use(skillRouter);
 app.use(testimonialRouter);
-app.use(dashboardRoute);
+app.use(dashboardRouter);
 
 app.get("/", (req,res) => {
     res.send("Selamat Datang di Backend Portofolio")
